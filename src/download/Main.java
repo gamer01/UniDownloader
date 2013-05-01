@@ -16,7 +16,10 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		try {
-						setRootDir();
+				
+			
+			
+			setRootDir();
 			setRelativePath();
 			DownloadFiles downloader = new DownloadFiles(modDateMapUri);
 			downloadLinA(downloader);
